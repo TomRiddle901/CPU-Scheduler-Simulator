@@ -11,7 +11,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- `style.css` => Decorazione della pagina HTML
+- `style.css` => Tema scuro in base alle impostazioni del sistema
 
 ### Fixed
 -
@@ -20,6 +20,10 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ---
+
+## [1.0.2] 2026-01-15
+### Added
+- Decorazione del sito web
 
 ## [1.0.1] 2026-01-15
 ### Added
