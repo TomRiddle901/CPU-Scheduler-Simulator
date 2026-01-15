@@ -22,12 +22,12 @@ Questo progetto è utilizzato per lo studio degli algoritmi di sheduling dei sis
 L'algoritmo che viene utilizzato è l'**FCFS (First Come First Served)**
 
 ## Struttura del progetto
-.
-|- CHANGELOG.md
-|- README.md
-|- index.html
-|- style.css
-| - script.js
+.<br>
+|- CHANGELOG.md<br>
+|- README.md<br>
+|- index.html<br>
+|- style.css<br>
+| - script.js<br>
 
 Se richiesta verrà aggiunta la cartella ***assets***
 
