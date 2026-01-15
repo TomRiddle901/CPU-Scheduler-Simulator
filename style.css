@@ -101,3 +101,18 @@ tr:nth-child(even){
     transform: translateY(-2px);
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
 }
+
+/* Paramatri CPU - Risultati */
+#cpuParams{
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#cpuParams p{
+    font-weight: bold;
+    margin: 8px 0;
+}
