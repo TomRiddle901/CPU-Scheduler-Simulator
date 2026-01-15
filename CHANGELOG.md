@@ -13,6 +13,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 ### Changed
 - `index.html` => Pulsanti per reset della pagina
 - `script.js` => Funzioni per il reset della pagina
+- `index.html` => Bottoni distinti per il reset: uno per il form e uno per tutta la pagina
 
 ### Fixed
 -
