@@ -8,11 +8,11 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Added
-- `style.css` => Stile per il diagramma di Gantt
+-
 
 ### Changed
-- `index.html` => Tag HTML per i parametri del processore
-- `script.js` => Creazione diagramma di Gantt
+- `index.html` => Pulsanti per reset della pagina
+- `script.js` => Funzioni per il reset della pagina
 
 ### Fixed
 -
