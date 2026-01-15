@@ -8,11 +8,11 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Added
--
+- `style.css` => Stile per il diagramma di Gantt
 
 ### Changed
-- `script.js` => Riempimento della tabella con i dati del form
-- `script.js` => Ordine dei dati secondo il criterio scelto utilizzando per questo eventualmente strutture dati di appoggio
+- `index.html` => Tag HTML per i parametri del processore
+- `script.js` => Creazione diagramma di Gantt
 
 ### Fixed
 -
