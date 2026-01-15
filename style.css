@@ -146,3 +146,23 @@ tr:nth-child(even){
     background-color: #c0392b;
     transform: translateY(-2px);
 }
+
+/* Pulsante inizio scheduling */
+#startBtn{
+    padding: 12px 25px;
+    background-color: #27ae60;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    display: block;
+    margin: 15px auto;
+}
+
+#startBtn:hover{
+    background-color: #1e8449;
+    transform: translateY(-2px);
+}
