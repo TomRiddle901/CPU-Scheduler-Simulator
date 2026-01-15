@@ -16,6 +16,9 @@ form.addEventListener('submit', function(event){
     // Inserisci processo nell'array
     processes.push({id: pid, arrival: arrival, burst: burst, priority: priority});
 
+    // Ordinamento decondo il criterio FCFS
+    processes.sort((a, b) => a.arrival - b.arrival);
+
     // Mostra la sezione output
     outputSection.hidden = false;
 
