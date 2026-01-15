@@ -116,3 +116,22 @@ tr:nth-child(even){
     font-weight: bold;
     margin: 8px 0;
 }
+
+/* Pulsante reset globale */
+#resetBtn{
+    display: block;
+    margin: 20px auto;
+    padding: 10px 25px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+#resetBtn:hover{
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
