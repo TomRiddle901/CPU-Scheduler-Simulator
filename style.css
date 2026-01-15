@@ -141,7 +141,7 @@ tr:nth-child(even) {
     box-shadow: 4px 4px 8px var(--shadow-color);
 }
 
-/* Colori diversi automatici per le prime 10 barre
+/* Colori diversi automatici per le prime 10 barre */
 #gantt div:nth-child(1) { background: linear-gradient(90deg, #e74c3c, #f39c12); }
 #gantt div:nth-child(2) { background: linear-gradient(90deg, #27ae60, #2ecc71); }
 #gantt div:nth-child(3) { background: linear-gradient(90deg, #4682b4, #87cefa); }
@@ -152,7 +152,6 @@ tr:nth-child(even) {
 #gantt div:nth-child(8) { background: linear-gradient(90deg, #34495e, #2c3e50); }
 #gantt div:nth-child(9) { background: linear-gradient(90deg, #c0392b, #e74c3c); }
 #gantt div:nth-child(10){ background: linear-gradient(90deg, #2980b9, #3498db); }
-*/
 /* --- Parametri CPU / Risultati --- */
 #cpuParams {
     background-color: var(--form-bg);
