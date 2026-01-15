@@ -30,11 +30,11 @@ form.addEventListener('submit', function(event){
     tableBody.innerHTML = '';
     processes.forEach(proc => {
         const row = `<tr>
-        <td>${proc.id}<td>
-        <td>${proc.arrival}<td>
-        <td>${proc.burst}<td>
-        <td>${proc.priority}<td>
-        <tr>`;
+        <td>${proc.id}</td>
+        <td>${proc.arrival}</td>
+        <td>${proc.burst}</td>
+        <td>${proc.priority}</td>
+        </tr>`;
         tableBody.innerHTML += row;
     });
 
@@ -43,7 +43,7 @@ form.addEventListener('submit', function(event){
 });
 
 startBtn.addEventListener('click', function(){
-    if (processes.lenght === 0){
+    if (processes.length === 0){
         ganttDiv.innerHTML = '';
         cpuParamsDiv.innerHTML = '';
 
@@ -67,7 +67,7 @@ startBtn.addEventListener('click', function(){
 
         const n = processes.length;
         cpuParamsDiv.innerHTML = `<p>Tempo medio di attesa: ${(totalWaiting / n).toFixed(2)}</p>
-                                <p>Tempo medio di completamento: ${(totalTurnaround / n).toFixedI(2)}</p>`;
+                                <p>Tempo medio di completamento: ${(totalTurnaround / n).toFixed(2)}</p>`;
     }
 });
 
