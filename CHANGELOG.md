@@ -21,6 +21,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ---
 
-## [0.0.0] 15-01-2026
+## [0.0.0] 2026-01-15
 ### Added
 - 
