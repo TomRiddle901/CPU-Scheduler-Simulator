@@ -11,18 +11,19 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- `index.html` => Pulsanti per reset della pagina
-- `script.js` => Funzioni per il reset della pagina
-- `index.html` => Bottoni distinti per il reset: uno per il form e uno per tutta la pagina
+- 
 
 ### Fixed
--
+- `script.js` => Errori sintattici e logici
 
 ### Removed
 -
 
 ---
 
-## [0.1.0] 2026-01-15
+## [1.0.0] 2026-01-15
 ### Added
-- Struttura iniziale del progetto
+- Interfaccia HTML per l'inserimento dei processi (ID, tempo di arrivo, tempo di burst)
+- Visualizzazione dei processi in tabella
+- Implementazione dell'algoritmo di scheduling scelto
+- Generazione del diagramma di Gantt
