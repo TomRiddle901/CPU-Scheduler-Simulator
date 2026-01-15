@@ -77,16 +77,23 @@ tr:nth-child(even){
     margin: 0 auto;
 }
 
-#gantt div{
+
+/* Diagramma di Gantt */
+#gantt {
+    margin-top: 20px;
+}
+
+#gantt div {
     margin: 4px 0;
     height: 35px;
-    background: linear-gradient(90deg, #4682b4, 87cefa);
+    background: linear-gradient(90deg, #4682b4, #87cefa);
+    color: #ffffff;
     font-weight: bold;
     text-align: center;
     line-height: 35px;
     border-radius: 6px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-    transform: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s, box-shadow 0.2s;
     cursor: default;
 }
 
