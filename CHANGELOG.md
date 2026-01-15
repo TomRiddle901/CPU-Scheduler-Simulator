@@ -11,8 +11,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- `index.html` => Rimossa riga che parlava dell'utilizzo dell'algoritmo FCFS
-- `index.html` => Aggiunta sezione ***main*** con la descrizione dell'algoritmo utilizzato
+- `index.html` => Crediti
 
 ### Fixed
 -
@@ -22,6 +21,6 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ---
 
-## [0.0.0] 2026-01-15
+## [0.1.0] 2026-01-15
 ### Added
-- 
+- Struttura iniziale del progetto
