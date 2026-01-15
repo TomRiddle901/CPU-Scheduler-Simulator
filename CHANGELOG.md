@@ -11,8 +11,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- `index.html` => Aggiunto *form* per inserire i processi
-- `index.html` => Aggiunto *output* per il momento nascosto
+- `script.js` => Riempimento della tabella con i dati del form
 
 ### Fixed
 -
