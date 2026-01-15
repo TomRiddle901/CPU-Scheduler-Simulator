@@ -10,8 +10,26 @@
         <header>
             <h1>CPU Scheduling Simulator</h1>
             <p>Simulatore di algoritmi di CPU Scheduling</p>
-            <p>L'algoritmo utilizzato: FCFS (First Come First Served)</p>
         </header>
+
+        <main>
+            <section id="descrizioneAlgoritmo">
+                <h2>Algoritmo di scheduling scelto: FCFS</h2>
+                <h3>Caratteristiche principali</h3>
+                <p>L'algoritmo <strong>First-Come, Firs-Served (FCFS)</strong> esegue i processi nell'ordine in cui arrivano.
+                Non richiede priorità ne preemption</p>
+                <h4>Vantaggi</h4>
+                <ul>
+                    <li>Semplice da implementare</li>
+                    <li>Giusto per tutti i processi: il primo che arriva è il primo che viene eseguito</li>
+                </ul>
+                <h4>Svantaggi</h4>
+                <ul>
+                    <li>Può causare il cosiddetto <em>convoglio dei processi</em> (tempo di attesa lungo se il processo richiede tanto tempo)</li>
+                    <li>Il tempo medio di attesa non è ottimizzato</li>
+                </ul>
+            </section>
+        </main>
         <script src="script.js"></script>
     </body>
 </html>
