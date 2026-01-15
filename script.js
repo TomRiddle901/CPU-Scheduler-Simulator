@@ -3,6 +3,9 @@ const processes = [];
 const form = document.getElementById("processFormMain");
 const outputSection = document.getElementById("output");
 const tableBody = document.getElementById("processTable");
+const startBtn = document.getElementById("startBtn");
+const ganttDiv = document.getElementById("gantt");
+const cpuParamsDiv = document.getElementById("cpuParams");
 
 form.addEventListener('submit', function(event){
     event.preventDefault();
@@ -36,4 +39,33 @@ form.addEventListener('submit', function(event){
 
     // Resetta form
     form.reset();
+});
+
+startBtn.addEventListener('click', function(){
+    if (processes.lenght === 0){
+        ganttDiv.innerHTML = '';
+        cpuParamsDiv.innerHTML = '';
+
+        // Simulazione FCFS
+        let currentTime = 0;
+        let totalWaiting = 0;
+        let totalTurnaround = 0;
+
+        processes.forEach(proc => {
+            let start = Math.max(currentTime, proc.arrival);
+            let end = start + proc.burst;
+            totalWaiting += start - proc.burst;
+            totalTurnaround += end - proc.arrival;
+            currentTime = end; 
+
+            const ganttBlock = document.createElement('div');
+            ganttBlock.style.width = `${proc.burst * 30}px`; // 30px per unità
+            ganttBlock.textContent = `${proc.id} (${start}-${end})`;
+            ganttDiv.appendChild(ganttBlock);
+        });
+
+        const n = processes.length;
+        cpuParamsDiv.innerHTML = `<p>Tempo medio di attesa: ${(totalWaiting / n).toFixed(2)}</p>
+                                <p>Tempo medio di completamento: ${(totalTurnaround / n).toFixedI(2)}</p>`;
+    }
 });
