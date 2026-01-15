@@ -11,19 +11,17 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- 
+- `style.css` => Decorazione della pagina
 
 ### Fixed
-- `script.js` => Errori sintattici e logici
+-
 
 ### Removed
 -
 
 ---
 
-## [1.0.0] 2026-01-15
+## [1.0.1] 2026-01-15
 ### Added
-- Interfaccia HTML per l'inserimento dei processi (ID, tempo di arrivo, tempo di burst)
-- Visualizzazione dei processi in tabella
-- Implementazione dell'algoritmo di scheduling scelto
-- Generazione del diagramma di Gantt
+- Corretti errori logici
+- Corretti errori di sintassi

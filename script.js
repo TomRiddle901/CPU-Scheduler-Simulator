@@ -20,12 +20,6 @@ form.addEventListener('submit', function(event){
     // Inserisci processo nell'array
     processes.push({id: pid, arrival: arrival, burst: burst, priority: priority});
 
-    // Ordinamento decondo il criterio FCFS
-    processes.sort((a, b) => a.arrival - b.arrival);
-
-    // Mostra la sezione output
-    outputSection.hidden = false;
-
     // Aggiorna la tabella
     tableBody.innerHTML = '';
     processes.forEach(proc => {
@@ -43,9 +37,15 @@ form.addEventListener('submit', function(event){
 });
 
 startBtn.addEventListener('click', function(){
-    if (processes.length === 0){
+    if (processes.length != 0){
+        // Mostra la sezione output
+        outputSection.hidden = false;
+
         ganttDiv.innerHTML = '';
         cpuParamsDiv.innerHTML = '';
+
+        // Ordinamento decondo il criterio FCFS
+        processes.sort((a, b) => a.arrival - b.arrival);
 
         // Simulazione FCFS
         let currentTime = 0;
@@ -55,7 +55,7 @@ startBtn.addEventListener('click', function(){
         processes.forEach(proc => {
             let start = Math.max(currentTime, proc.arrival);
             let end = start + proc.burst;
-            totalWaiting += start - proc.burst;
+            totalWaiting += start - proc.arrival;
             totalTurnaround += end - proc.arrival;
             currentTime = end; 
 
@@ -68,6 +68,8 @@ startBtn.addEventListener('click', function(){
         const n = processes.length;
         cpuParamsDiv.innerHTML = `<p>Tempo medio di attesa: ${(totalWaiting / n).toFixed(2)}</p>
                                 <p>Tempo medio di completamento: ${(totalTurnaround / n).toFixed(2)}</p>`;
+    } else{
+        alert("Devi inserire almeno un processo!");
     }
 });
 
