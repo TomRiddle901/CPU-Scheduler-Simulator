@@ -12,6 +12,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ### Changed
 - `style.css` => Tema scuro in base alle impostazioni del sistema
+- `style.css` => Barre di Gantt di diversi colori
 
 ### Fixed
 -
