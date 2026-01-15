@@ -1,0 +1,8 @@
+#gantt div{
+    margin: 2px 0;
+    height: 30px;
+    background-color: #4682b4;
+    color: #ffffff;
+    text-align: center;
+    line-height: 30px;
+}
