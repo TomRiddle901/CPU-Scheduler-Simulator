@@ -11,7 +11,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 -
 
 ### Changed
-- `index.html` => Crediti
+-
 
 ### Fixed
 -
