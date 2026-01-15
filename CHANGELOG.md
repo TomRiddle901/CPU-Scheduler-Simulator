@@ -8,10 +8,10 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 
 ## [Unreleased]
 ### Added
--
+- Creato header con una breve introduzione all'applicazione
 
 ### Changed
--
+- README.md: aggiunta descrizione aggiuntiva
 
 ### Fixed
 -
