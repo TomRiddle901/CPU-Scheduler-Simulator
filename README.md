@@ -1,6 +1,8 @@
 # CPU Scheduling Simulator
 
 ## Descrizione
+Questo progetto consiste nella realizzazione di una **applicazione web** sviluppata con **HTML, CSS, JavaScript**
+che permette di simulare il funzionamento di un algoritmo di **CPU Scheduling**
 
 Questa applicazione consente di:
 - Inserire i dati in alcuni processi (ID, Tempo di arrivo, Tempo di burst, priorità);
