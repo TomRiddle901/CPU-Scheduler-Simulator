@@ -1,3 +1,14 @@
+/* Tema chiaro (default) */
+:root{
+    --bg-body: #f0f4f8;
+    --text-color: #333333;
+    --accent-blue: #4682b4;
+    --accent-lightblue: #87cefa;
+    --accent-green: #27ae60;
+    --accent-red: #e74c3c;
+    --table-even: #f9f9f9;
+}
+
 /* Stile globale */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
