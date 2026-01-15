@@ -9,6 +9,28 @@
     --table-even: #f9f9f9;
 }
 
+/* Tema scuro (automatico) */
+@media (prefers-color-scheme: dark){
+    :root{
+        --bg-body: #121212;
+        --text-color: #f0f0f0;
+        --accent-blue: #1e3a5f;
+        --accent-lightblue: #3b6ea5;
+        --accent-green: #1f7a4d;
+        --accent-red: #c0392b;
+        --table-even: #1e1e1e;
+    }
+
+    body, form, #cpuParams, table{
+        background-color: #1a1a1a;
+        color: var(--text-color);
+    }
+
+    th{
+        background-color: var(--accent-blue);
+    }
+}
+
 /* Stile globale */
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
