@@ -71,6 +71,12 @@ tr:nth-child(even){
     background-color: #f9f9f9;
 }
 
+/* Output */
+#output{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
 #gantt div{
     margin: 4px 0;
     height: 35px;
