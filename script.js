@@ -6,6 +6,7 @@ const tableBody = document.getElementById("processTable");
 const startBtn = document.getElementById("startBtn");
 const ganttDiv = document.getElementById("gantt");
 const cpuParamsDiv = document.getElementById("cpuParams");
+const resetBtn = document.getElementById("resetBtn");
 
 form.addEventListener('submit', function(event){
     event.preventDefault();
@@ -68,4 +69,12 @@ startBtn.addEventListener('click', function(){
         cpuParamsDiv.innerHTML = `<p>Tempo medio di attesa: ${(totalWaiting / n).toFixed(2)}</p>
                                 <p>Tempo medio di completamento: ${(totalTurnaround / n).toFixedI(2)}</p>`;
     }
+});
+
+resetBtn.addEventListener('click', function(){
+    processes.length = 0;
+    tableBody.innerHTML = '';
+    ganttDiv.innerHTML = '';
+    cpuParamsDiv.innerHTML = '';
+    outputSection.hidden = true;
 });
