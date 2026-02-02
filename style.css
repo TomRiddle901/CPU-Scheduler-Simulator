@@ -53,6 +53,17 @@ p {
     text-align: center;
 }
 
+ul {
+    padding-left: 0;
+    margin: 20px 0;
+    text-align: center;
+}
+
+ul li {
+    list-style-position: inside;
+    margin: 5px 0;
+}
+
 /* --- Form --- */
 form {
     background-color: var(--form-bg);
