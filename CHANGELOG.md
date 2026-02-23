@@ -7,9 +7,12 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 ---
 
 ## [Unreleased]
-- Possibile pubblicazione tramite GitHub Pages (in valutazione)
+- 
 
 ---
+## [1.0.3] - 2026-02-23
+### Added
+- Pubblicato simulatore tramite GitHub Pages
 
 ## [1.0.3] - 2026-01-15
 ### Added
