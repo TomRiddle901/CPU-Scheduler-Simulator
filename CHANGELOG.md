@@ -7,7 +7,7 @@ Il formato segue le convenzioni di **Keep a Changelog** e il **versionamento sem
 ---
 
 ## [Unreleased]
-- Nessuna modifica
+- Possibile pubblicazione tramite GitHub Pages (in valutazione)
 
 ---
 
