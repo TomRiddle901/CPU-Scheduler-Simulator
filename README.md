@@ -34,4 +34,4 @@ Se richiesta verrà aggiunta la cartella ***assets***
 ---
 
 ## Stato del progetto
-Il progetto è in sviluppo e verrà aggiornato in base alle consegne
+Il progetto non è più in sviluppo e non riceverà più aggiornamenti
