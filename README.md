@@ -33,5 +33,11 @@ Se richiesta verrà aggiunta la cartella ***assets***
 
 ---
 
+## Sito Web
+Questo progetto è stato pubblicato tramite GitHub Pages, quindi non è richiesto il download del progetto (per uso raro)
+Link: https://tomriddle901.github.io/CPU-Scheduler-Simulator/
+
+---
+
 ## Stato del progetto
 Il progetto non è più in sviluppo e non riceverà più aggiornamenti
